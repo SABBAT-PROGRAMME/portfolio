@@ -1,9 +1,9 @@
 <template>
-  <nav class="bg-blue-500 p-4 text-white">
-    <NuxtLink to="/" class="mr-4">Accueil</NuxtLink>
-    <NuxtLink to="/about" class="mr-4">À Propos</NuxtLink>
-    <NuxtLink to="/contact" class="mr-4">Contact</NuxtLink>
-    <NuxtLink to="/articles" class="mr-4">Articles</NuxtLink>
+  <nav class="flex justify-center space-x-8 mb-6">
+    <NuxtLink to="/" class="hover:underline">Home</NuxtLink>
+    <NuxtLink to="/about" class="hover:underline">About</NuxtLink>
+    <NuxtLink to="/articles" class="hover:underline">Articles</NuxtLink>
+    <NuxtLink to="/contact" class="hover:underline">Contact</NuxtLink>
   </nav>
 </template>
 
