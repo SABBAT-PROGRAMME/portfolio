@@ -1,14 +1,14 @@
 <template>
   <div class="">
     <main class="flex items-center m-5">
-      <div class="w-1/2">
+      <div class="h-full">
         <img
           src="./assets/images/profile.png"
           alt="Portrait de l'artiste"
-          class="w-full h-auto grayscale"
+          class="w-full h-full grayscale"
         />
       </div>
-      <div class="summary">
+      <div class="summary h-full overflow-y-auto">
         <NuxtPage />
       </div>
     </main>
